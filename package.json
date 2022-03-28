@@ -1,0 +1,23 @@
+{
+  "name": "anti-injection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AtomicFeasT/anti-injection.git",
+  "author": "AtomicFeasT",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
