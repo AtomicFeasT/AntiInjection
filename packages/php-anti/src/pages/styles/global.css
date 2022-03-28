@@ -1,0 +1,23 @@
+:root {
+    --ff-abril-fatface: 'Abril Fatface', cursive;
+
+    --background-color: hsl(220, 14%, 7%);
+    --text-color: hsl(0, 0%, 90%);
+
+    --accent-color: hsl(213, 64%, 65%);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: var(--ff-abril-fatface);
+    color: var(--text-color);
+
+    letter-spacing: .1rem;
+}

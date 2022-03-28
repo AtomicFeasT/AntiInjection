@@ -1,1 +1,55 @@
 @import "reset.css";
+@import "global.css";
+
+:root {
+    --input-background: hsl(220, 14%, 15%); 
+    --input-background-hovered: hsl(220, 14%, 20%); 
+}
+
+body {
+    display: grid;
+    place-content: center;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+.access-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-input,
+.email-input {
+    background-color: var(--input-background);
+    color: var(--text-color); 
+
+    padding: .25rem;
+    margin: .5rem;
+
+    border: 0;
+    border-radius: .15rem;
+}
+
+.text-input:focus-visible,
+.email-input:focus-visible {
+    outline: 0;
+}
+
+.text-input:hover,
+.text-input:focus,
+.email-input:hover,
+.email-input:focus {
+    background: var(--input-background-hovered);
+    box-shadow: 0 0 0 3px var(--accent-color);
+
+    transition: all 250ms ease-in-out;
+    outline: 0;
+}
+
+.submit-input {
+    border-radius: .15rem;
+    border: 0;
+}
