@@ -25,8 +25,8 @@ body {
     align-items: center;
 }
 
-.text-input,
-.email-input {
+.email-input,
+.pass-input {
     width: 100%;
     max-width: 20rem;
 

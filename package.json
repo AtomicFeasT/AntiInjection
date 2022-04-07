@@ -13,7 +13,8 @@
     "commit": "cz"
   },
   "devDependencies": {
-    "commitizen": "^4.2.4"
+    "commitizen": "^4.2.4",
+    "yarn": "^1.22.18"
   },
   "config": {
     "commitizen": {
