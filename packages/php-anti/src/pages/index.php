@@ -16,8 +16,8 @@
     <main class="main-content">
         <h1 class="welcoming-header">Preencha O Formulário Para Acessar Nossa Página!</h1>
         <form action="" class="access-form">
-            <input class="text-input" type="text" name="" id="">
             <input class="email-input" type="email" name="" id="">
+            <input class="pass-input" type="password" name="" id="">
             <input class="submit-input" type="submit" value="Enviar">
         </form>
     </main>
