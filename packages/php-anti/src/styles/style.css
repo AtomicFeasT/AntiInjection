@@ -40,15 +40,15 @@ body {
     border-radius: .15rem;
 }
 
-.text-input:focus-visible,
-.email-input:focus-visible {
+.email-input:focus-visible,
+.pass-input:focus-visible {
     outline: 0;
 }
 
-.text-input:hover,
-.text-input:focus,
 .email-input:hover,
-.email-input:focus {
+.email-input:focus,
+.pass-input:hover,
+.pass-input:focus {
     background: var(--input-background-hovered);
     box-shadow: 0 0 0 2px var(--accent-color);
 
