@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bem-Vindo!</title>
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Logou Com Sucesso</h1>
+    <main class="main-content">
+        <h1>Logou Com Sucesso!</h1>
+    </main>
 </body>
 </html>
+

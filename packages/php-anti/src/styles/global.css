@@ -15,7 +15,8 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+label {
     font-family: var(--ff-abril-fatface);
     color: var(--text-color);
 

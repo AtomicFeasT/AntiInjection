@@ -16,8 +16,17 @@
     <main class="main-content">
         <h1 class="welcoming-header">Preencha O Formulário Para Acessar Nossa Página!</h1>
         <form action="loginValidation.php" method="POST" class="access-form">
-            <input class="email-input" type="email" name="mail" required>
-            <input class="pass-input" type="password" name="pass" required>
+
+            <div class="email-wrapper">
+                <label for="mail" class="email-label">Email</label>
+                <input class="email-input" type="email" name="mail" required>
+            </div>
+
+            <div class="pass-wrapper">
+                <label for="pass" class="pass-label">Senha</label>
+                <input class="pass-input" type="password" name="pass" required>
+            </div>
+
             <input class="submit-input" type="submit" value="Enviar">
         </form>
     </main>
