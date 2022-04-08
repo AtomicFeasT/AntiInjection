@@ -1,5 +1,4 @@
 <?php
-
 function antiInfection($param){
     
     if (empty($param)) {
@@ -33,5 +32,4 @@ function antiInfection($param){
         }
     }
 }
-
 ?>

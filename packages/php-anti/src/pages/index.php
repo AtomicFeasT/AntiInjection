@@ -15,7 +15,7 @@
 <body>
     <main class="main-content">
         <h1 class="welcoming-header">Preencha O Formulário Para Acessar Nossa Página!</h1>
-        <form action="loginValidation.php" method="POST" class="access-form">
+        <form action="../php/loginValidation.php" method="POST" class="access-form">
 
             <div class="email-wrapper">
                 <label for="mail" class="email-label">Email</label>

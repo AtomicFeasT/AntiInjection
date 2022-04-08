@@ -1,6 +1,4 @@
 <?php
-
-
 $mail = $_POST['mail'];
 $pass = $_POST['pass'];
 
@@ -20,7 +18,7 @@ function userValidation($mail, $pass) {
     }
 }
 
-include "tools.php";
+include "tool.php";
 
 $emailInjVerify = antiInfection($mail);
 $passInjVerify = antiInfection($pass);
@@ -29,14 +27,11 @@ $validateUser = userValidation($mail, $pass);
 
 function redirectPage ($param1, $param2, $param3) {
     if ($param1 == 1 && $param2 == 1 && $param3) {
-        header("Location: welcome.php"); 
+        header("Location: ../pages/welcome.php"); 
     } else {
-        header("Location: index.php");
-        echo "<script type='javascript'>alert('Email enviado com Sucesso!');";
-        echo "javascript:window.location='index.php';</script>";
+        header("Location: ../pages/index.php");
     }
 }
 
 redirectPage($emailInjVerify, $passInjVerify, $validateUser);
-
 ?>
