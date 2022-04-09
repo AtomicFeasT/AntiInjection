@@ -8,9 +8,8 @@ This is project was create so we could learn how to apply anti-injection in a re
 <div style="display: block"> 
    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img align="center" alt="HTML5" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img align="center" alt="CSS3" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
-   <a target="_blank" href="https://sass-lang.com/"><img align="center" alt="SASS" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"></a>
-   <a target="_blank" href="https://www.javascript.com/"><img align="center" alt="JS" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"></a>
-   <a target="_blank" href="https://www.typescriptlang.org/"><img align="center" alt="TS" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"></a>
+   <a target="_blank" href="https://www.php.net/"><img align="center" alt="PHP" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg"></a>
+   <a target="_blank" href="https://www.mysql.com/"><img align="center" alt="MySQL" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"></a>
 </div>
 <br>
  <ul>
