@@ -25,5 +25,5 @@ This is project was create so we could learn how to apply anti-injection in a re
    <li>Go to your browser and type in your search bar <i><strong>localhost/phpmyadmin</strong></i>.</li>
    <li>Click in <i><strong>"SQL"</strong></i> and inside the text box paste all the code in the <i><strong>src/sql file</strong></i> inside it.</li>
    <li>After that type in your browser search bar <i><strong>localhost/anti-injection/packages/php-anti/src/pages/</strong></i>.</li>
-   <li>Enjoy testing it!</li>
+   <li>Alternatively you can go to our <a href="thitorinjection.000webhostapp.com/"website</a>.</li>
   </ol>
