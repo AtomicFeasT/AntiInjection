@@ -18,7 +18,7 @@ This is project was create so we could learn how to apply anti-injection in a re
   <li><a target="_blank" href="https://github.com/commitizen/cz-cli"><i>Commitizien</i></a></li>
  </ul>
 
-<h3>How To Run & Requirments</h3>
+<h3>How To Run & Requirements</h3>
   <ol>
    <li>First you'll need <a target="_blank" href="https://www.apachefriends.org/download.html">XAMPP</a>.</li>
    <li>After installing the XAMPP Control Panel start your <i><strong>Apache</strong></i> and <i><strong>MySQL</strong></i>.</li>
