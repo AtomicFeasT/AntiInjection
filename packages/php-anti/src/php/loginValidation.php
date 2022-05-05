@@ -23,15 +23,14 @@ include "tool.php";
 $emailInjVerify = antiInfection($mail);
 $passInjVerify = antiInfection($pass);
 
-$validateUser = userValidation($mail, $pass);
+$validateUser = userValidation($emailInjVerify, $passInjVerify);
 
-function redirectPage ($param1, $param2, $param3) {
-    if ($param1 == 1 && $param2 == 1 && $param3) {
-        header("Location: ../pages/welcome.php"); 
+function redirectPage ($param1, $param2) {
+    if ($param1 == 1 && $param2 == 1) {
+        header("Location: ../welcome.php"); 
     } else {
-        header("Location: ../pages/index.php");
+        header("Location: ../index.php");
     }
 }
-
-redirectPage($emailInjVerify, $passInjVerify, $validateUser);
+redirectPage($emailInjVerify, $passInjVerify, $validateUser)
 ?>

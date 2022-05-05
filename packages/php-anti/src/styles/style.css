@@ -27,9 +27,10 @@ body {
 
 .email-wrapper,
 .pass-wrapper {
+    width: 100%
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .email-label,
@@ -42,7 +43,7 @@ body {
 
 .email-input,
 .pass-input {
-    width: 20rem;
+    width: 100%;
     max-width: 20rem;
 
     background-color: var(--input-background);

@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$database = "antiinjection";
+$username = "id18755036_thitorinjection";
+$password = "wD53GvT^H]E|FT$!";
+$database = "id18755036_antiinjection";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
@@ -10,6 +10,8 @@ $conn = new mysqli($servername, $username, $password, $database);
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
+} else {
+    
 }
-echo "Connected successfully";
+
 ?>
