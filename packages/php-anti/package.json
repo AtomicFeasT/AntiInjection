@@ -1,9 +1,8 @@
 {
     "name": "workspace-php",
     "version": "1.0.0",
-  
     "dependencies": {
-      "cross-env": "5.0.5",
-      "workspace-b": "1.0.0"
+        "cross-env": "5.0.5",
+        "workspace-b": "1.0.0"
     }
-  }
+}
