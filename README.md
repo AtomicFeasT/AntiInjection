@@ -31,7 +31,7 @@ This is project was create so we could learn how to apply anti-injection in a re
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/AtomicFeasT"
+      <a href="https://github.com/AtomicFeasT">
         <img src="https://avatars3.githubusercontent.com/AtomicFeasT" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
           <b>AtomicFeasT</b>
